@@ -34,6 +34,11 @@ namespace TechJobs.Data
             return instance;
         }
 
+        internal List<Job> FindByColumnAndValue(object column, string value)
+        {
+            throw new NotImplementedException();
+        }
+
 
         /**
          * Return all Job objects in the data store
